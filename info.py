@@ -18,9 +18,9 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'dreamxbotz_search')   # Session name for the bot
-API_ID = int(environ.get('API_ID', '')) # API ID from my.telegram.org
-API_HASH = environ.get('API_HASH', '')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
+API_ID = int(environ.get('API_ID', '23491399')) # API ID from my.telegram.org
+API_HASH = environ.get('API_HASH', '2b7f62a2c17cdb83427074b9615cdb90')  # API Hash from my.telegram.org
+BOT_TOKEN = environ.get('BOT_TOKEN', "8514779241:AAFMWNOz6Og62PDqMzeEMf-oASTr233aU1g")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
@@ -120,8 +120,8 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamxbotz') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/dreamxbotz') # Owner link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/The_Mania_Movie') # Group link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/ll_ZA1N_ll') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/dreamxbotz') # Update channel link for the bot
 
 # ============================
